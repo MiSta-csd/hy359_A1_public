@@ -1,0 +1,399 @@
+header {
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 2em;
+    text-align: center;
+    /* background-color: burlywood; */
+    border-radius: 10px;
+}
+
+/* Fonts */
+/* Fonts */
+@font-face {
+    src: url("../fonts/HIROSHT.TTF");
+    font-family: Hirosh;
+}
+
+@font-face {
+    src: url("../fonts/Osake-x3oqj.otf");
+    font-family: Osake;
+}
+
+@font-face {
+    src: url("../fonts/BankaiDemoVersion-lglxd.ttf");
+    font-family: Bankai;
+}
+
+header {
+    font-family: Hirosh;
+    /* font-size: 32px; */
+}
+
+.osakeFont {
+    font-family: Osake;
+}
+
+.bankaiFont {
+    font-family: Bankai;
+}
+
+.row {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+/* #bkgnd {
+    background-image: url('https://visittrivalley.com/wp-content/uploads/2019/03/iStock-962839792.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  } */
+
+/* nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  } */
+
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2%;
+    width: 94%;
+    overflow: hidden;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color:#b52929;
+    border-radius: 10px;
+}
+
+.nav1 {
+    margin-left: 12%;
+    padding: 0.6%;
+    display: inline-block;
+    text-align: center;
+    /* position: fixed; */
+}
+
+.nav1 a {
+    color: black;
+}
+
+.col-sm-3{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 13% ;
+
+}
+.col-sm-9{
+    position: inherit;
+}
+
+/* To solve hyperlink offset */
+#intro, #campaigns, #media, #links {
+    scroll-margin-top: 120px;
+  }
+
+.artclHeader {
+    margin-top: 1em;
+    font-family: Osake;
+}
+
+.mainArtcl {
+    /* text-align: center; */
+    margin-bottom: 8%;
+    border-radius: 6px;
+    /* background-color:#cdedee; */
+}
+
+/* Table customization */
+/* table {
+} */
+
+th, td {
+    padding-top: 5px;
+    padding-left: 6px;
+    vertical-align: top;
+}
+
+.bioColumn {
+    /* background-color: cyan; */
+    margin-top: 2%;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#bioPic {
+    /* margin: auto; */
+    margin-left: 10%;
+    background-image: url("../media/cropped_Oda.png");
+    background-size: cover;
+    border-radius: 6px;
+    width: 305px;
+    height: 432px;
+}
+
+.sect1 {
+    margin-left: 2%;
+    text-align: left;
+    /* background-color: cadetblue; */
+    border-radius: 6px;
+    font-family: Bankai;
+}
+
+.sectHeader {
+    font-family: Bankai;
+}
+
+.artclLeftElem {
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.artclLeftElem p {
+    font-family: Bankai;
+}
+
+.sectCampRow {
+    display: flex;
+    /* text-align: justify; */
+}
+
+.sectCampArt {
+    text-align: center;
+}
+
+#sectImg1 {
+    float: right;
+    border-radius: 10px;
+    width: 400px;
+}
+
+#sectImg2 {
+    float: right;
+    border-radius: 8px;
+    width: 250px;
+}
+
+/* #artPanel {
+    
+} */
+
+.artRow {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    display: flex;
+}
+
+.artBox {
+    flex-basis: 100%;
+    margin: 5px;
+    text-align: center;
+    /* width: 30px;
+    height: 30px; */
+    /* background-color: darkgreen; */
+}
+
+/* #artBox1 {
+    height:200px;
+    width: 100%;
+    background-color: blueviolet;
+} */
+
+#artImg1 {
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-top: 23%;
+    /* padding: 4%; */
+    width: 75%;
+}
+
+#artImg2 {
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-top: 16%;
+    /* padding: 4%; */
+    width: 75%;
+}
+
+#artImg3 {
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-top: 10%;
+    /* padding: 4%; */
+    width: 60%;
+}
+
+.artImg {
+    padding: 2%;
+}
+
+.artImg:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+#mus_Hist {
+    margin-top: 10%
+}
+
+.mediaRow {
+    display: flex;
+}
+
+.mediaBox {
+    flex-basis:100%;
+    margin: 5px;
+    text-align: center;
+    /* width: 30px;
+    height: 30px; */
+    /* background-color: darkgreen; */
+}
+
+#mediaBox1 {
+    padding: 2%;
+    /* border: 2px solid black; */
+    border-radius: 5%;
+    margin-top: 30%;
+}
+
+/* Social Menu ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#socialRow {
+    display:grid;
+    grid-template-columns: 6fr 1fr;
+}
+
+.fb_iframe_widget {
+    display: inline-block;
+    /* position: relative; */
+}
+
+.fb-share-button {
+    position: fixed;
+    bottom: 0;
+}
+
+.socialButton {
+    display:inline-table;
+}
+
+/* .fa {
+    display: inherit;
+    font: normal normal normal 1px/0.01 FontAwesome;
+    font-size: 30px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+
+
+.fa {
+    padding: 30px;
+    /* font-size: 30px;
+    width: 30px; */
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    /* border-radius: 50%; */
+    border-radius: 4px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    border-radius: 4px;
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+  
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#asid1 {
+    /* margin-top: 6%; */
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-color: black;
+    border-width: 3px;
+    border-style:solid;
+    border-radius: 6px;
+    text-align: center;
+    /* background-color: gainsboro; */
+    /* background-image: url("../media/iStock-962839792.jpg"); */
+    
+    /* These are good properties. Don't mess them.  */
+    /* background-image: url("../media/grey_flowery.jpg");
+    background-size: 165%;
+    background-position-x: 66.5%;
+    background-position-y: 92%; */
+    
+    /* These are even better  */
+    background-image: url("../media/grey_flowery.jpg"); 
+    background-size: 164%;
+    background-position-x: 45.5%;
+    background-position-y: 0%;
+}
+
+#clanHeader {
+    margin-bottom: 6%;
+    text-align: center;
+    font-family: Bankai;
+}
+
+#clanLogo {
+    margin: auto;
+    background-image: url("../media/Oda_emblem.svg");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#clanLinkBox {
+    /* background-color: hotpink; */
+    margin-top: 12%;
+    margin-left: 20%;
+}
+
+#clanLinkBox ul {
+    list-style-type: none;
+}
+
+.clanLink {
+    font-family: Bankai;
+    margin: 2%;
+    text-align:start;
+}
+
+.clanLink a:visited {
+    color:crimson;
+  }
+
+#footp1 {
+    text-align: left;
+}
+
+#footsie:not(#footp1) {opacity: 82%;}
+
+#footsie {
+    border-top: 3px solid black;
+    height: 62px;
+    background-color:#444444;
+    text-align: center;
+}
